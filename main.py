@@ -4,7 +4,7 @@ print("Задание 1:\n")
 
 dt = np.dtype([('ts', 'int32'), ('les_id', 'int16'), ('area', 'float32'), ('ery', 'float32'), ('mel', 'float32'), ('mois', 'float32')])
 
-data = np.genfromtxt('c:/Users/21das/OneDrive/Desktop/123/Proga/laba6/Code/data.csv', delimiter=',', dtype=dt, skip_header=1, invalid_raise=False)
+data = np.genfromtxt('data.csv', delimiter=',', dtype=dt, skip_header=1, invalid_raise=False)
 
 sizeData = data.shape
 
